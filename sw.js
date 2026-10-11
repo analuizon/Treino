@@ -1,5 +1,5 @@
 const BASE=new URL('./',self.location.href);
-const CACHE='ritmo-v3-'+BASE.pathname;
+const CACHE='ritmo-v4-'+BASE.pathname;
 const FILES=['./','index.html','style.css','app.js','model.js','icon.svg','manifest.webmanifest'].map(path=>new URL(path,BASE).href);
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)));self.skipWaiting()});
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('ritmo-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
