@@ -22,3 +22,10 @@ Dados somente no localStorage deste navegador/dispositivo. Não há login, sincr
 
 ## GitHub Pages
 O workflow `.github/workflows/pages.yml` testa e publica somente arquivos públicos a cada push em `main`. Em Settings → Pages, selecione GitHub Actions como Source. O aplicativo usa caminhos relativos para funcionar no subdiretório `/Treino/`.
+
+## Treino híbrido
+A aba Treino híbrido organiza duas sessões de caminhada/trote na esteira, combinadas com dias de superiores. A primeira etapa tem 22 minutos: 5 min caminhando, 6 × (30 s trote + 90 s caminhada), 5 min caminhando. As etapas são repetíveis, sem prazo para 5 km e sem velocidade prescrita. A sugestão requer validação profissional para condições individuais.
+
+Registrar corrida inclui duração, distância informada manualmente do Apple Watch, esforço, dor e conclusão dos intervalos. Recuperação é confirmada a partir do dia seguinte. Avanço manual exige três sessões completas na etapa, separadas por ao menos dois dias de calendário, esforço até 4/10, sem dor e com recuperação confirmada. Essa regra de produto não substitui avaliação profissional. Um registro de 5 km pode incluir caminhada; 30 min correndo não garante essa distância.
+
+“Aplicar semana híbrida” substitui a ficha mediante confirmação, mantendo pesos e histórico. Tempos das corridas não atualizam a ficha automaticamente ao avançar; reaplique se desejado. O RPG fica provisoriamente na quarta-feira e pode ser editado. A integração com Apple Watch é manual. Os registros de corrida integram o backup local, sem sincronização ou conta.
